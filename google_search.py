@@ -1,3 +1,8 @@
+#MISP module which displays informations about an URL based on a google search engine API. 
+#In order to use this hover type module you need to download the following API : https://github.com/abenassi/Google-Search-API. 
+#No API key is needed. 
+#The module's script name  (google_search) should also be added in the __all__ list of <module type folder>/__init__.py
+
 import json
 import requests
 from google import google
